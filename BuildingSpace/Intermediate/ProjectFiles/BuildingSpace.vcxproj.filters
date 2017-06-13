@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BuildingSpace.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{C5D54100-8B73-4A09-94FD-BD2A6BC44244}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BuildingSpace.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BuildingSpaceEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{1F043E76-6BAF-40B7-8048-5902FFF1E024}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BuildingSpace">
+			<UniqueIdentifier>{7728DE17-2BB9-4373-BC64-12F342D8F56E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BuildingSpace\BuildingSpace.Build.cs">
+			<Filter>Source\BuildingSpace</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BuildingSpace\BuildingSpace.cpp">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BuildingSpace\BuildingSpace.h">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BuildingSpace\BuildingSpaceGameModeBase.cpp">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BuildingSpace\BuildingSpaceGameModeBase.h">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
