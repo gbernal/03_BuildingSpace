@@ -13,3 +13,4 @@ BuildingScape/Content/StarterContent/
 ######################
 *.VC.db
 BuildingSpace/BuildingSpace.sln
+*.opendb
