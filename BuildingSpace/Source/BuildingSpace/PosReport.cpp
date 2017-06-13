@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PosReport.h"
-
+#include "Gameframework/Actor.h"
 
 // Sets default values for this component's properties
 UPosReport::UPosReport()
@@ -10,7 +10,6 @@ UPosReport::UPosReport()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
 }
 
 
@@ -19,7 +18,10 @@ void UPosReport::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	FString ObjectName = GetOwner()->GetName();
+	FString ObjectPos = GetOwner()->GetTransform().ToString();
+	UE_LOG(LogTemp, Warning, TEXT(" %s is at %s "), *ObjectName, *ObjectPos);
+
 	
 }
 
