@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\BuildingSpace.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{C5D54100-8B73-4A09-94FD-BD2A6BC44244}</UniqueIdentifier>
+			<UniqueIdentifier>{30663621-0041-48C0-B166-3474F3AD65CD}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\BuildingSpace.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1F043E76-6BAF-40B7-8048-5902FFF1E024}</UniqueIdentifier>
+			<UniqueIdentifier>{70345E2B-4779-452E-8AEE-A0D357475891}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\BuildingSpace">
-			<UniqueIdentifier>{7728DE17-2BB9-4373-BC64-12F342D8F56E}</UniqueIdentifier>
+			<UniqueIdentifier>{DAEA262A-EE84-41B5-8F3C-2E86F0096305}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\BuildingSpace\BuildingSpace.Build.cs">
 			<Filter>Source\BuildingSpace</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\BuildingSpace</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\BuildingSpace\BuildingSpaceGameModeBase.h">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BuildingSpace\PosReport.cpp">
+			<Filter>Source\BuildingSpace</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BuildingSpace\PosReport.h">
 			<Filter>Source\BuildingSpace</Filter>
 		</ClInclude >
 	</ItemGroup>

@@ -8,3 +8,6 @@
 #ifndef BUILDINGSPACE_BuildingSpaceGameModeBase_generated_h
 	#include "BuildingSpaceGameModeBase.h"
 #endif
+#ifndef BUILDINGSPACE_PosReport_generated_h
+	#include "PosReport.h"
+#endif
