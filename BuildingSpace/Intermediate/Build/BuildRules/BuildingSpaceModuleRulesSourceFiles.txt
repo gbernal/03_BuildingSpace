@@ -1,3 +1,3 @@
-D:\UnrealProject_D\001_Ucademy\03_BuildingScape\03_BuildingSpace\BuildingSpace\Source\BuildingSpace\BuildingSpace.Build.cs
-D:\UnrealProject_D\001_Ucademy\03_BuildingScape\03_BuildingSpace\BuildingSpace\Source\BuildingSpace.Target.cs
-D:\UnrealProject_D\001_Ucademy\03_BuildingScape\03_BuildingSpace\BuildingSpace\Source\BuildingSpaceEditor.Target.cs
+/Users/guillermobernal/Documents/Unreal Projects/03_BuildingSpace/BuildingSpace/Source/BuildingSpace/BuildingSpace.Build.cs
+/Users/guillermobernal/Documents/Unreal Projects/03_BuildingSpace/BuildingSpace/Source/BuildingSpace.Target.cs
+/Users/guillermobernal/Documents/Unreal Projects/03_BuildingSpace/BuildingSpace/Source/BuildingSpaceEditor.Target.cs
