@@ -17,10 +17,10 @@ UPosReport::UPosReport()
 void UPosReport::BeginPlay()
 {
 	Super::BeginPlay();
-
-	FString ObjectName = GetOwner()->GetName();
+    //Find the owning actor
+	FString ObjectOwner = GetOwner()->GetName();
     FString ObjectPos = GetOwner()->GetTransform().GetLocation().ToString();
-	UE_LOG(LogTemp, Warning, TEXT(" %s is at %s "), *ObjectName, *ObjectPos);
+	UE_LOG(LogTemp, Warning, TEXT(" %s is at %s "), *ObjectOwner, *ObjectPos);
 
 	
 }
